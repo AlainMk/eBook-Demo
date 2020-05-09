@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const kTitleCategoryTextStyle = TextStyle(
-  fontSize: 30.0,
+  fontSize: 25.0,
   color: Colors.black,
   fontWeight: FontWeight.bold,
 );

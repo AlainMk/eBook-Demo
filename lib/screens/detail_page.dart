@@ -16,7 +16,6 @@ class DetailPage extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Expanded(
-            flex: 2,
             child: Card(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -99,6 +98,7 @@ class DetailPage extends StatelessWidget {
                                   Container(
                                     width: 150.0,
                                     height: 25.0,
+                                    margin: EdgeInsets.only(top: 5.0),
                                     child: Center(
                                       child: Text(
                                         'Technologies',
@@ -106,7 +106,7 @@ class DetailPage extends StatelessWidget {
                                     ),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(5.0),
-                                      color: Colors.grey,
+                                      color: Colors.grey.shade400,
                                     ),
                                   ),
                                 ],
@@ -174,7 +174,6 @@ class DetailPage extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 3,
             child: Card(),
           ),
         ],
