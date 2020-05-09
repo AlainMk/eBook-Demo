@@ -11,7 +11,13 @@ class BookCardImage extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => DetailPage()));
+          context,
+          MaterialPageRoute(
+            builder: (context) => DetailPage(
+              imageName: image,
+            ),
+          ),
+        );
       },
       child: Container(
         margin: EdgeInsets.only(left: 8.0),

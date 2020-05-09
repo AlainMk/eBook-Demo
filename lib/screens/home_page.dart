@@ -1,5 +1,6 @@
 import 'package:ebookdemo/components/book_card.dart';
 import 'package:ebookdemo/components/book_card_image.dart';
+import 'package:ebookdemo/utilities/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -20,11 +21,7 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.only(left: 10.0, top: 20.0, bottom: 20.0),
                   child: Text(
                     'Les best sellers',
-                    style: TextStyle(
-                      fontSize: 30.0,
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: kTitleCategoryTextStyle,
                     textAlign: TextAlign.start,
                   ),
                 ),
@@ -56,11 +53,7 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.only(left: 10.0, top: 20.0, bottom: 20.0),
                   child: Text(
                     'Les nouveaux livres',
-                    style: TextStyle(
-                      fontSize: 30.0,
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: kTitleCategoryTextStyle,
                     textAlign: TextAlign.start,
                   ),
                 ),
@@ -92,11 +85,7 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.only(left: 10.0, top: 20.0, bottom: 20.0),
                   child: Text(
                     'Les livres les plus lus',
-                    style: TextStyle(
-                      fontSize: 30.0,
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: kTitleCategoryTextStyle,
                     textAlign: TextAlign.start,
                   ),
                 ),
